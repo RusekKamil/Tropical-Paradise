@@ -129,6 +129,12 @@ body {
 	animation: navItemsAnimation 1s both;
 }
 
+.black-bars-color,
+.black-bars-color::after,
+.black-bars-color::before {
+	background-color: $dark;
+}
+
 // header
 
 .header {
@@ -670,7 +676,7 @@ body {
 		&__box-list-item {
 			margin-bottom: 1em;
 
-			a{
+			a {
 				color: $light-white;
 				text-decoration: none;
 			}
